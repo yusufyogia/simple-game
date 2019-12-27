@@ -1,0 +1,30 @@
+canvas {
+  border: 2px dotted yellow;
+  margin-top: 20px;
+  background-color: white;
+  opacity: .9;
+}
+body {
+  height: 1000px;
+  background-size: contain;
+  overflow: hidden;
+  margin: center;
+}
+.container {
+  background: url(bg-body.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 500px;
+  width: 400px;
+  border: 5px solid blue;
+  text-align: center;
+}
+h1 {
+  display: block;
+  color: yellow;
+  text-decoration-color: white;
+  height: 100px;
+  width: auto;
+  text-align: center;
+  text-transform: inherit;
+}
